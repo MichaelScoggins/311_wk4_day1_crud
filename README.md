@@ -38,7 +38,7 @@ We are going to run a couple INSERT/UPDATE/DELETE statements and put our SQL STA
 
 3. Delete the user with the id of `114` from the `users` table.
 
-Did the above statment fail? Why? What does the error response say?
+Did the above statement fail? Why? What does the error response say?
 
 We cannot delete this user yet because other tables (usersContact, usersAddress) are children of this table. Remember when we talked about foreign keys in the last lesson? That means we need to delete the appropriate information from those tables before we can delete the user. 
 
